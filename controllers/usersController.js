@@ -45,7 +45,7 @@ module.exports = {
                 return res.status(201).json({
                     success: true,
                     message: 'El usuario fue autenticado',
-                    datos // el id que se registro
+                    data: datos // el id que se registro
                 })
             }else{
                 return res.status(401).json({
